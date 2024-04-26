@@ -35,3 +35,8 @@ jobs:
         with:
           name: Artifacts
           path: build/libs/
+      - name: auto release
+        if: startsWith(github.event.ref, 'refs/tags/v')
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
