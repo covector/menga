@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "edging": {
+      "conditions": {},
+      "trigger": "minecraft:edging"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": {
+      "text": "On your way to the edge of glory!"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "menga:menga"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Edging"
+    }
+  },
+  "requirements": [
+    [
+      "edging"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

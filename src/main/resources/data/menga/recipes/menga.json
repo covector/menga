@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CCC",
+      "BSB",
+      "C C"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:red_concrete"
+      },
+      "S": {
+        "item": "minecraft:slime_ball"
+      },
+      "B": {
+        "item": "minecraft:snow_block"
+      }
+    },
+    "result": {
+      "item": "menga:menga",
+      "count": 1
+    }
+  }

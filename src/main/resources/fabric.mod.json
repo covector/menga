@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "menga",
+	"version": "${version}",
+	"name": "Menga",
+	"description": "It's Mengain' time!",
+	"authors": [
+		"covector"
+	],
+	"contact": {
+		"sources": "https://github.com/covector/menga"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/menga/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.covector.menga.Menga"
+		],
+		"client": [
+			"dev.covector.menga.MengaClient"
+		],
+		"fabric-datagen": [
+			"dev.covector.menga.MengaDataGenerator"
+		]
+	},
+	"mixins": [
+		"menga.mixins.json",
+		{
+			"config": "menga.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

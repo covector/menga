@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "dev.covector.menga.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"LivingEntityMixin",
+		"KnockbackMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
